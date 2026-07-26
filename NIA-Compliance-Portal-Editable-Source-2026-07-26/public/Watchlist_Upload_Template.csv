@@ -1,0 +1,3 @@
+Name,Party Type,Aliases,Reference Number,Record ID,Date of Birth,Nationality,Identifiers,Remarks
+Example Person,Individual,Example Alias|Second Alias,INT-001,1,1980-01-15,Oman,P1234567|CivilID123,Reason for internal review
+Example Trading LLC,Entity,Example Trading|ET LLC,INT-002,2,,Oman,CR123456,Internal prohibited entity

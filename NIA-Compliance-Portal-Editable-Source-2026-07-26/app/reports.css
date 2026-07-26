@@ -1,0 +1,35 @@
+.report-modal {
+  width: min(1050px, 96vw);
+}
+
+.report-preview {
+  max-height: 430px;
+  overflow: auto;
+  border: 1px solid #dce3e9;
+  border-radius: 7px;
+  margin-top: 16px;
+}
+
+.report-preview table {
+  min-width: 760px;
+}
+
+.report-preview th {
+  position: sticky;
+  top: 0;
+  background: #214f73;
+  color: white;
+  z-index: 1;
+}
+
+.report-preview td {
+  font-size: 9px;
+}
+
+.profile-modal {
+  width: min(470px, 96vw);
+}
+
+.profile-modal .form-field {
+  margin: 18px 0 0;
+}
