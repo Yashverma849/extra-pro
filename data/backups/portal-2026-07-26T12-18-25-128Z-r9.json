@@ -1,0 +1,141 @@
+{
+  "users": [
+    {
+      "id": "8873bcdf-6aa8-4c3b-92cd-f740aefd3c71",
+      "username": "admin",
+      "fullName": "System Administrator",
+      "role": "ADMIN",
+      "active": true,
+      "passwordHash": "d150de0df0b228d7dcc85cc52870dfa5:8d1f98c51ca8af1d640854a861381f1244dbba5a1f6e1115a8a7d063c6f14b29f67787905d9c13c93dfedba956806b90f1c837b3fc6171d8de6ccd6396ec0db7",
+      "createdAt": "2026-07-26T11:59:36.778Z",
+      "lastLogin": "2026-07-26T12:13:51.027Z",
+      "failedLoginCount": 0,
+      "lockedUntil": null,
+      "mustChangePassword": true
+    }
+  ],
+  "schemaVersion": 2,
+  "revision": 9,
+  "sessions": [
+    {
+      "token": "12c80ce1856f62ba0e7570edef4d80c60814f04c41b2ef16c1cc501773330a59",
+      "userId": "8873bcdf-6aa8-4c3b-92cd-f740aefd3c71",
+      "expiresAt": "2026-07-26T20:00:24.243Z"
+    }
+  ],
+  "cases": [],
+  "customers": [],
+  "activities": [
+    {
+      "id": "ce6a9fbd-6fe6-4e4e-a2a5-0c4f5adf0704",
+      "date": "2026-07-26T12:13:51.028Z",
+      "user": "System Administrator",
+      "action": "LOGIN",
+      "detail": "Signed in to the intranet portal"
+    },
+    {
+      "id": "63180501-085b-4a01-b7ea-1c886a0adab5",
+      "date": "2026-07-26T12:09:11.344Z",
+      "user": "System Administrator",
+      "action": "LOGIN",
+      "detail": "Signed in to the intranet portal"
+    },
+    {
+      "id": "d136b669-4b7f-49cf-b3da-410530d5a804",
+      "date": "2026-07-26T12:08:37.652Z",
+      "user": "System Administrator",
+      "action": "LOGIN",
+      "detail": "Signed in to the intranet portal"
+    },
+    {
+      "id": "c7acd5fb-b765-4bb2-81c6-6da6db3db06f",
+      "date": "2026-07-26T12:06:33.020Z",
+      "user": "System Administrator",
+      "action": "LOGIN",
+      "detail": "Signed in to the intranet portal"
+    },
+    {
+      "id": "47f51762-bc55-4c8a-b0ad-2b9a54e31837",
+      "date": "2026-07-26T12:00:24.243Z",
+      "user": "System Administrator",
+      "action": "LOGIN",
+      "detail": "Signed in to the intranet portal"
+    }
+  ],
+  "routines": [
+    {
+      "businessDate": "",
+      "dailyUpload": "Pending",
+      "screening": "Pending",
+      "criticalReviewed": "Pending",
+      "kycFollowup": "Pending"
+    }
+  ],
+  "watchlistVersions": [],
+  "watchlistEntries": [],
+  "watchlistSources": [
+    {
+      "id": "source-un",
+      "code": "UN",
+      "name": "UN Consolidated List",
+      "authority": "United Nations Security Council",
+      "classification": "MANDATORY_OMAN_TFS",
+      "treatment": "Immediate Oman TFS escalation and action under the approved NCTC procedure",
+      "legalBasis": "Oman NCTC Decision 1/2022 and applicable UN Security Council resolutions",
+      "format": "UN_XML",
+      "active": true,
+      "systemDefined": true,
+      "statutoryLocked": true,
+      "createdAt": "2026-07-26T11:59:36.779Z",
+      "createdBy": "System"
+    },
+    {
+      "id": "source-oman",
+      "code": "OMAN",
+      "name": "Oman National List",
+      "authority": "Oman National Counter-Terrorism Committee",
+      "classification": "MANDATORY_OMAN_TFS",
+      "treatment": "Immediate Oman TFS escalation and action under the approved NCTC procedure",
+      "legalBasis": "Oman NCTC Decision 1/2022",
+      "format": "STANDARD_CSV",
+      "active": true,
+      "systemDefined": true,
+      "statutoryLocked": true,
+      "createdAt": "2026-07-26T11:59:36.779Z",
+      "createdBy": "System"
+    },
+    {
+      "id": "source-pep",
+      "code": "PEP",
+      "name": "PEP List",
+      "authority": "NIA-approved PEP data source",
+      "classification": "PEP",
+      "treatment": "Risk-based enhanced due diligence and approval; not automatic rejection or freezing",
+      "legalBasis": "NIA AML/CFT procedure and applicable PEP requirements",
+      "format": "STANDARD_CSV",
+      "active": true,
+      "systemDefined": true,
+      "statutoryLocked": false,
+      "createdAt": "2026-07-26T11:59:36.779Z",
+      "createdBy": "System"
+    },
+    {
+      "id": "source-internal",
+      "code": "INTERNAL",
+      "name": "Internal Watchlist",
+      "authority": "The New India Assurance Co. Ltd.",
+      "classification": "INTERNAL",
+      "treatment": "Internal review or restriction under approved NIA policy",
+      "legalBasis": "NIA approved internal watchlist procedure",
+      "format": "STANDARD_CSV",
+      "active": true,
+      "systemDefined": true,
+      "statutoryLocked": false,
+      "createdAt": "2026-07-26T11:59:36.779Z",
+      "createdBy": "System"
+    }
+  ],
+  "uploadBatches": [],
+  "dailyTransactions": [],
+  "uboRecords": []
+}
